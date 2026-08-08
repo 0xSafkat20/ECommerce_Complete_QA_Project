@@ -1,0 +1,36 @@
+﻿Requirement ID,Module,Requirement,Priority
+REQ-001,Authentication,Allow a registered user to log in with valid credentials.,High
+REQ-002,Authentication,Reject login attempts with invalid credentials.,High
+REQ-003,Authentication,Show a clear error for a locked-out account.,High
+REQ-004,Authentication,Allow an authenticated user to log out.,High
+REQ-005,Authentication,Prevent unauthenticated use of protected inventory pages.,High
+REQ-006,Product Catalog,Display product inventory after successful login.,High
+REQ-007,Product Catalog,"Display product name, description, price, and image.",Medium
+REQ-008,Product Catalog,Allow opening a product detail page.,Medium
+REQ-009,Product Catalog,Support name sorting ascending and descending.,Medium
+REQ-010,Product Catalog,Support price sorting low-high and high-low.,Medium
+REQ-011,Shopping Cart,Allow adding a product to the cart.,High
+REQ-012,Shopping Cart,Allow adding multiple different products to the cart.,High
+REQ-013,Shopping Cart,Show a cart badge matching the number of added products.,High
+REQ-014,Shopping Cart,Allow removing a product from the cart.,High
+REQ-015,Shopping Cart,Preserve cart contents during navigation in the session.,High
+REQ-016,Shopping Cart,Show correct product name and price in the cart.,High
+REQ-017,Checkout,Allow checkout to start from the cart.,High
+REQ-018,Checkout,"Require first name, last name, and postal code for checkout.",High
+REQ-019,Checkout,Show validation when required checkout information is missing.,High
+REQ-020,Checkout,Show selected products and prices in checkout overview.,High
+REQ-021,Checkout,"Keep checkout item total, tax, and final total internally consistent.",High
+REQ-022,Checkout,Allow a valid checkout to finish with success confirmation.,High
+REQ-023,Checkout,Allow checkout cancellation without corrupting state.,Medium
+REQ-024,Navigation,Allow navigation back to product inventory.,Medium
+REQ-025,Navigation,Allow opening and closing the application menu.,Low
+REQ-026,Usability,Provide visible and understandable primary controls and errors.,Medium
+REQ-027,Compatibility,"Support critical journey testing on Chromium, Firefox, and WebKit.",Medium
+REQ-028,API Products,Return a collection of products with identifiers and attributes.,High
+REQ-029,API Products,Return a single product for a valid identifier.,High
+REQ-030,API Products,"Support documented product search, pagination, sorting, and categories.",Medium
+REQ-031,API Products,Return controlled error behavior for invalid/nonexistent product identifiers.,Medium
+REQ-032,API Carts,"Return cart data including products, quantities, totals, and user.",High
+REQ-033,API Carts,Simulate adding a new cart and return its representation.,High
+REQ-034,API Carts,Support retrieving carts for a specific user.,Medium
+REQ-035,Data Validation,Support representative SQL validation of user/cart/order data.,Medium

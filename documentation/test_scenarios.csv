@@ -1,0 +1,81 @@
+﻿Scenario ID,Module,Test Scenario,Planning Status
+TS-001,Authentication,Login with valid standard user credentials,Planned
+TS-002,Authentication,Login with invalid password,Planned
+TS-003,Authentication,Login with invalid username,Planned
+TS-004,Authentication,Login with both fields blank,Planned
+TS-005,Authentication,Login with username blank,Planned
+TS-006,Authentication,Login with password blank,Planned
+TS-007,Authentication,Locked-out user error,Planned
+TS-008,Authentication,Successful logout,Planned
+TS-009,Authentication,Protected inventory without authenticated session,Planned
+TS-010,Product Catalog,Inventory loads after login,Planned
+TS-011,Product Catalog,Product cards contain required information,Planned
+TS-012,Product Catalog,Open detail from product name,Planned
+TS-013,Product Catalog,Open detail from product image,Planned
+TS-014,Product Catalog,Back to Products navigation,Planned
+TS-015,Product Catalog,Sort name A-Z,Planned
+TS-016,Product Catalog,Sort name Z-A,Planned
+TS-017,Product Catalog,Sort price low-high,Planned
+TS-018,Product Catalog,Sort price high-low,Planned
+TS-019,Product Catalog,Repeated sort changes,Planned
+TS-020,Product Catalog,Consistent price currency format,Planned
+TS-021,Shopping Cart,Add one product updates badge,Planned
+TS-022,Shopping Cart,Add multiple products updates badge,Planned
+TS-023,Shopping Cart,Added product appears in cart,Planned
+TS-024,Shopping Cart,Multiple products appear in cart,Planned
+TS-025,Shopping Cart,Remove product from inventory,Planned
+TS-026,Shopping Cart,Remove product from cart,Planned
+TS-027,Shopping Cart,Cart persists through product detail navigation,Planned
+TS-028,Shopping Cart,Cart persists after Continue Shopping,Planned
+TS-029,Shopping Cart,Cart name matches inventory,Planned
+TS-030,Shopping Cart,Cart price matches inventory,Planned
+TS-031,Shopping Cart,Open empty cart,Planned
+TS-032,Shopping Cart,No badge when cart is empty,Planned
+TS-033,Checkout,Start checkout with item,Planned
+TS-034,Checkout,Start checkout with empty cart and document behavior,Planned
+TS-035,Checkout,Submit valid customer information,Planned
+TS-036,Checkout,First name required,Planned
+TS-037,Checkout,Last name required,Planned
+TS-038,Checkout,Postal code required,Planned
+TS-039,Checkout,All customer fields blank,Planned
+TS-040,Checkout,Overview shows selected product,Planned
+TS-041,Checkout,Overview item total visible,Planned
+TS-042,Checkout,Overview tax visible,Planned
+TS-043,Checkout,Overview total visible,Planned
+TS-044,Checkout,Total arithmetic is correct,Planned
+TS-045,Checkout,Finish completes order,Planned
+TS-046,Checkout,Confirmation content,Planned
+TS-047,Checkout,Back Home returns to inventory,Planned
+TS-048,Checkout,Cancel from information returns to cart,Planned
+TS-049,Checkout,Cancel from overview returns to inventory,Planned
+TS-050,Navigation & UX,Open menu,Planned
+TS-051,Navigation & UX,Close menu,Planned
+TS-052,Navigation & UX,All Items navigation,Planned
+TS-053,Navigation & UX,Cart icon navigation,Planned
+TS-054,Navigation & UX,Browser back from cart,Planned
+TS-055,Navigation & UX,Primary labels are visible,Planned
+TS-056,Navigation & UX,Keyboard tab navigation on login,Planned
+TS-057,API Products,GET all products,Planned
+TS-058,API Products,Validate product collection fields,Planned
+TS-059,API Products,GET single valid product,Planned
+TS-060,API Products,GET nonexistent product,Planned
+TS-061,API Products,Search products,Planned
+TS-062,API Products,Search relevance,Planned
+TS-063,API Products,Limit pagination,Planned
+TS-064,API Products,Skip pagination,Planned
+TS-065,API Products,Sort products,Planned
+TS-066,API Products,Get categories,Planned
+TS-067,API Carts,GET all carts,Planned
+TS-068,API Carts,Validate cart collection fields,Planned
+TS-069,API Carts,GET single valid cart,Planned
+TS-070,API Carts,GET carts by user,Planned
+TS-071,API Carts,Add simulated cart,Planned
+TS-072,API Carts,Added cart user ID,Planned
+TS-073,API Carts,Added cart products,Planned
+TS-074,API Carts,Invalid cart identifier,Planned
+TS-075,Database Validation,Lookup user by email,Planned
+TS-076,Database Validation,Join cart items with products,Planned
+TS-077,Database Validation,Recalculate order subtotal,Planned
+TS-078,Database Validation,Detect duplicate emails,Planned
+TS-079,Database Validation,Detect orphan cart items,Planned
+TS-080,Database Validation,Check product stock sanity,Planned

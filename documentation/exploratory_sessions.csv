@@ -1,0 +1,9 @@
+﻿Session ID,Charter,Mission,Timebox,Focus Areas
+EXP-001,Cart state consistency,"Explore cart state across inventory, detail, cart, back/forward, and session boundaries.",45 min,"Navigation, session state, badge"
+EXP-002,Checkout validation,"Explore missing, long, whitespace, and punctuation-heavy checkout fields.",45 min,"Validation, boundaries, messages"
+EXP-003,Sorting behavior,Explore repeated sorting and navigation to detect stale or wrong ordering.,30 min,Name and price sorts
+EXP-004,Error recovery,"Trigger errors, correct input, and verify the flow recovers normally.",30 min,"Error clearing, form state"
+EXP-005,Keyboard usability,Navigate critical pages with keyboard-only controls where supported.,30 min,"Focus order, actions"
+EXP-006,Cross-browser smoke,"Run the same critical journey on Chromium, Firefox, and WebKit.",60 min,Compatibility
+EXP-007,API negative behavior,"Probe nonexistent IDs, invalid formats, missing fields, and boundary parameters.",45 min,"Status, body, stability"
+EXP-008,Data integrity,Compare API concepts with sample relational schema and validation queries.,45 min,"Keys, totals, duplicates, orphans"

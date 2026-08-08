@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-complete-qa-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA Intern portfolio: manual, API, DB and Playwright automation testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "latest"
+  }
+}

@@ -1,0 +1,260 @@
+﻿Test Case ID,Requirement ID,Module,Test Case,Preconditions,Test Steps,Test Data,Expected Result,Status,Priority,Test Type,Remarks
+TC-001,REQ-001,Authentication,Login with valid standard user credentials,Login page is available,"1. Open login page
+2. Execute: Login with valid standard user credentials
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-002,REQ-002,Authentication,Login with invalid password,Login page is available,"1. Open login page
+2. Execute: Login with invalid password
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-003,REQ-002,Authentication,Login with invalid username,Login page is available,"1. Open login page
+2. Execute: Login with invalid username
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-004,REQ-002,Authentication,Login with both fields blank,Login page is available,"1. Open login page
+2. Execute: Login with both fields blank
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-005,REQ-002,Authentication,Login with username blank,Login page is available,"1. Open login page
+2. Execute: Login with username blank
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-006,REQ-002,Authentication,Login with password blank,Login page is available,"1. Open login page
+2. Execute: Login with password blank
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-007,REQ-003,Authentication,Locked-out user error,Login page is available,"1. Open login page
+2. Execute: Locked-out user error
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-008,REQ-004,Authentication,Successful logout,Login page is available,"1. Open login page
+2. Execute: Successful logout
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-009,REQ-005,Authentication,Protected inventory without authenticated session,Login page is available,"1. Open login page
+2. Execute: Protected inventory without authenticated session
+3. Observe authentication result",Configured demo credentials / negative data,The authentication result matches the scenario and the application remains stable.,Not Run,High,Functional,
+TC-010,REQ-006,Product Catalog,Inventory loads after login,User is logged in,"1. Open inventory
+2. Execute: Inventory loads after login
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-011,REQ-007,Product Catalog,Product cards contain required information,User is logged in,"1. Open inventory
+2. Execute: Product cards contain required information
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-012,REQ-008,Product Catalog,Open detail from product name,User is logged in,"1. Open inventory
+2. Execute: Open detail from product name
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-013,REQ-008,Product Catalog,Open detail from product image,User is logged in,"1. Open inventory
+2. Execute: Open detail from product image
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-014,REQ-008,Product Catalog,Back to Products navigation,User is logged in,"1. Open inventory
+2. Execute: Back to Products navigation
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-015,REQ-009,Product Catalog,Sort name A-Z,User is logged in,"1. Open inventory
+2. Execute: Sort name A-Z
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-016,REQ-009,Product Catalog,Sort name Z-A,User is logged in,"1. Open inventory
+2. Execute: Sort name Z-A
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-017,REQ-010,Product Catalog,Sort price low-high,User is logged in,"1. Open inventory
+2. Execute: Sort price low-high
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-018,REQ-010,Product Catalog,Sort price high-low,User is logged in,"1. Open inventory
+2. Execute: Sort price high-low
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-019,REQ-009,Product Catalog,Repeated sort changes,User is logged in,"1. Open inventory
+2. Execute: Repeated sort changes
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-020,REQ-007,Product Catalog,Consistent price currency format,User is logged in,"1. Open inventory
+2. Execute: Consistent price currency format
+3. Compare visible product state",Visible products,Catalog behavior and displayed data match the scenario.,Not Run,Medium,Functional,
+TC-021,REQ-013,Shopping Cart,Add one product updates badge,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Add one product updates badge
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-022,REQ-013,Shopping Cart,Add multiple products updates badge,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Add multiple products updates badge
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-023,REQ-011,Shopping Cart,Added product appears in cart,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Added product appears in cart
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-024,REQ-012,Shopping Cart,Multiple products appear in cart,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Multiple products appear in cart
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-025,REQ-014,Shopping Cart,Remove product from inventory,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Remove product from inventory
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-026,REQ-014,Shopping Cart,Remove product from cart,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Remove product from cart
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-027,REQ-015,Shopping Cart,Cart persists through product detail navigation,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Cart persists through product detail navigation
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-028,REQ-015,Shopping Cart,Cart persists after Continue Shopping,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Cart persists after Continue Shopping
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-029,REQ-016,Shopping Cart,Cart name matches inventory,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Cart name matches inventory
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-030,REQ-016,Shopping Cart,Cart price matches inventory,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Cart price matches inventory
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-031,REQ-011,Shopping Cart,Open empty cart,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: Open empty cart
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-032,REQ-013,Shopping Cart,No badge when cart is empty,User is logged in; cart state prepared as needed,"1. Prepare required cart state
+2. Execute: No badge when cart is empty
+3. Inspect badge/cart contents",One or more visible products,"Cart contents, badge, names, and prices remain consistent.",Not Run,High,Functional,
+TC-033,REQ-017,Checkout,Start checkout with item,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Start checkout with item
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-034,REQ-017,Checkout,Start checkout with empty cart and document behavior,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Start checkout with empty cart and document behavior
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-035,REQ-018,Checkout,Submit valid customer information,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Submit valid customer information
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-036,REQ-019,Checkout,First name required,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: First name required
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-037,REQ-019,Checkout,Last name required,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Last name required
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-038,REQ-019,Checkout,Postal code required,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Postal code required
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-039,REQ-019,Checkout,All customer fields blank,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: All customer fields blank
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-040,REQ-020,Checkout,Overview shows selected product,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Overview shows selected product
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-041,REQ-021,Checkout,Overview item total visible,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Overview item total visible
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-042,REQ-021,Checkout,Overview tax visible,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Overview tax visible
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-043,REQ-021,Checkout,Overview total visible,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Overview total visible
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-044,REQ-021,Checkout,Total arithmetic is correct,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Total arithmetic is correct
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-045,REQ-022,Checkout,Finish completes order,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Finish completes order
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-046,REQ-022,Checkout,Confirmation content,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Confirmation content
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-047,REQ-022,Checkout,Back Home returns to inventory,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Back Home returns to inventory
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-048,REQ-023,Checkout,Cancel from information returns to cart,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Cancel from information returns to cart
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-049,REQ-020,Checkout,Cancel from overview returns to inventory,User is logged in; checkout state prepared as needed,"1. Open cart/checkout
+2. Execute: Cancel from overview returns to inventory
+3. Observe validation, overview, or confirmation",Jane / Doe / 10001 and boundary variants,Checkout behavior matches the scenario without inconsistent totals or state.,Not Run,High,Functional,
+TC-050,REQ-025,Navigation & UX,Open menu,Relevant page is open,"1. Execute navigation/usability action: Open menu
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-051,REQ-025,Navigation & UX,Close menu,Relevant page is open,"1. Execute navigation/usability action: Close menu
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-052,REQ-024,Navigation & UX,All Items navigation,Relevant page is open,"1. Execute navigation/usability action: All Items navigation
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-053,REQ-024,Navigation & UX,Cart icon navigation,Relevant page is open,"1. Execute navigation/usability action: Cart icon navigation
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-054,REQ-024,Navigation & UX,Browser back from cart,Relevant page is open,"1. Execute navigation/usability action: Browser back from cart
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-055,REQ-026,Navigation & UX,Primary labels are visible,Relevant page is open,"1. Execute navigation/usability action: Primary labels are visible
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-056,REQ-026,Navigation & UX,Keyboard tab navigation on login,Relevant page is open,"1. Execute navigation/usability action: Keyboard tab navigation on login
+2. Observe destination, focus, or label",N/A,"Navigation or usability behavior is clear, stable, and consistent.",Not Run,Medium,Functional,
+TC-057,REQ-028,API Products,GET all products,DummyJSON API is reachable,"1. Send request for scenario: GET all products
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-058,REQ-028,API Products,Validate product collection fields,DummyJSON API is reachable,"1. Send request for scenario: Validate product collection fields
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-059,REQ-029,API Products,GET single valid product,DummyJSON API is reachable,"1. Send request for scenario: GET single valid product
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-060,REQ-031,API Products,GET nonexistent product,DummyJSON API is reachable,"1. Send request for scenario: GET nonexistent product
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-061,REQ-030,API Products,Search products,DummyJSON API is reachable,"1. Send request for scenario: Search products
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-062,REQ-030,API Products,Search relevance,DummyJSON API is reachable,"1. Send request for scenario: Search relevance
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-063,REQ-030,API Products,Limit pagination,DummyJSON API is reachable,"1. Send request for scenario: Limit pagination
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-064,REQ-030,API Products,Skip pagination,DummyJSON API is reachable,"1. Send request for scenario: Skip pagination
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-065,REQ-030,API Products,Sort products,DummyJSON API is reachable,"1. Send request for scenario: Sort products
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-066,REQ-030,API Products,Get categories,DummyJSON API is reachable,"1. Send request for scenario: Get categories
+2. Validate status, body, types, and metadata",https://dummyjson.com/products,Response matches documented product API behavior and validations pass.,Not Run,High,API,
+TC-067,REQ-032,API Carts,GET all carts,DummyJSON API is reachable,"1. Send request for scenario: GET all carts
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-068,REQ-032,API Carts,Validate cart collection fields,DummyJSON API is reachable,"1. Send request for scenario: Validate cart collection fields
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-069,REQ-032,API Carts,GET single valid cart,DummyJSON API is reachable,"1. Send request for scenario: GET single valid cart
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-070,REQ-034,API Carts,GET carts by user,DummyJSON API is reachable,"1. Send request for scenario: GET carts by user
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-071,REQ-033,API Carts,Add simulated cart,DummyJSON API is reachable,"1. Send request for scenario: Add simulated cart
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-072,REQ-033,API Carts,Added cart user ID,DummyJSON API is reachable,"1. Send request for scenario: Added cart user ID
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-073,REQ-033,API Carts,Added cart products,DummyJSON API is reachable,"1. Send request for scenario: Added cart products
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-074,REQ-032,API Carts,Invalid cart identifier,DummyJSON API is reachable,"1. Send request for scenario: Invalid cart identifier
+2. Validate status, body, product quantities, totals, and user data",https://dummyjson.com/carts,Response matches documented cart API behavior and validations pass.,Not Run,High,API,
+TC-075,REQ-035,Database Validation,Lookup user by email,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Lookup user by email
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-076,REQ-035,Database Validation,Join cart items with products,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Join cart items with products
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-077,REQ-035,Database Validation,Recalculate order subtotal,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Recalculate order subtotal
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-078,REQ-035,Database Validation,Detect duplicate emails,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Detect duplicate emails
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-079,REQ-035,Database Validation,Detect orphan cart items,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Detect orphan cart items
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-080,REQ-035,Database Validation,Check product stock sanity,Sample PostgreSQL schema and seed data are loaded,"1. Execute SQL validation: Check product stock sanity
+2. Review returned rows and integrity conditions",Sample QA database,Query returns the intended validation result with no unexpected integrity issue.,Not Run,Medium,Functional,
+TC-081,REQ-001,Authentication,Login using Enter key,Valid login fields are filled,Press Enter from password field,Valid credentials,Login submits successfully,Not Run,Medium,Usability,
+TC-082,REQ-002,Authentication,Username with leading/trailing spaces,Login page open,Enter spaces around valid username and submit,  standard_user  ,Behavior is consistent and does not authenticate unintended input,Not Run,Medium,Negative,
+TC-083,REQ-002,Authentication,Password case sensitivity,Login page open,Change password letter case and submit,Changed-case password,Login is rejected,Not Run,High,Negative,
+TC-084,REQ-002,Authentication,Very long username,Login page open,Enter a 256-character username and submit,256 characters,Application handles input without crash,Not Run,Medium,Boundary,
+TC-085,REQ-002,Authentication,Special characters in username,Login page open,Enter special characters and submit,!@#$%^&*(),Application rejects invalid credentials safely,Not Run,Medium,Negative,
+TC-086,REQ-026,Authentication,Password field masking,Login page open,Type password and inspect rendering,Configured password,Password is not shown as plain text,Not Run,High,Usability/Security,
+TC-087,REQ-004,Authentication,Back button after logout,User has logged out,Use browser Back,N/A,Protected session is not restored as usable authenticated state,Not Run,High,Security/Functional,
+TC-088,REQ-006,Product Catalog,Inventory contains at least one item,Logged in,Count product cards,N/A,At least one product card is visible,Not Run,High,Smoke,
+TC-089,REQ-008,Product Catalog,Detail name matches inventory,Logged in,"Capture name, open detail, compare",First product,Names match,Not Run,Medium,Functional,
+TC-090,REQ-008,Product Catalog,Detail price matches inventory,Logged in,"Capture price, open detail, compare",First product,Prices match,Not Run,High,Functional,
+TC-091,REQ-008,Product Catalog,Detail description is visible,Detail open,Inspect description,N/A,Description is visible,Not Run,Low,Functional,
+TC-092,REQ-008,Product Catalog,Detail image is visible,Detail open,Inspect image,N/A,Image is visible,Not Run,Low,Functional,
+TC-093,REQ-026,Product Catalog,Add-to-cart labels are visible,Inventory open,Inspect product action buttons,N/A,Action labels are clear,Not Run,Medium,Usability,
+TC-094,REQ-027,Product Catalog,Inventory smoke on WebKit,Playwright browsers installed,Run smoke test on WebKit,N/A,Critical inventory smoke executes and result is reported,Not Run,Medium,Compatibility,
+TC-095,REQ-012,Shopping Cart,Add all visible products,Cart empty,Add each visible product,All visible products,Badge equals number added,Not Run,Medium,Boundary,
+TC-096,REQ-014,Shopping Cart,Remove all products one-by-one,Multiple products added,Remove each item from cart,Multiple products,Cart becomes empty and badge disappears,Not Run,High,Regression,
+TC-097,REQ-011,Shopping Cart,Add from product detail,Detail open; item absent,Click Add to cart,Current product,Product is added and badge updates,Not Run,High,Functional,
+TC-098,REQ-014,Shopping Cart,Remove from product detail,Detail open; item added,Click Remove,Current product,Product is removed and badge updates,Not Run,Medium,Functional,
+TC-099,REQ-014,Shopping Cart,Remove one of three decrements once,Three items added,Remove one item,Three products,Badge moves from 3 to 2,Not Run,High,Functional,
+TC-100,REQ-012,Shopping Cart,Re-add a removed product,Product was added then removed,Add same product again,Same product,Product can be added again,Not Run,Medium,Regression,
+TC-101,REQ-024,Shopping Cart,Cart icon works from detail,Product detail open,Click cart icon,N/A,Cart page opens,Not Run,Medium,Navigation,
+TC-102,REQ-026,Shopping Cart,Continue Shopping control visible,Cart open,Inspect controls,N/A,Continue Shopping is visible and actionable,Not Run,Low,Usability,
+TC-103,REQ-026,Shopping Cart,Checkout control visible,Cart open,Inspect controls,N/A,Checkout is visible and actionable,Not Run,High,Usability,
+TC-104,REQ-018,Checkout,Names with hyphen/apostrophe,Checkout form open,Enter Anne-Marie / O'Neil / 10001 and continue,Anne-Marie / O'Neil / 10001,Input is handled without crash and behavior is documented,Not Run,Medium,Boundary,
+TC-105,REQ-018,Checkout,Long customer name,Checkout form open,Enter 100-character first name and continue,100-char first name,Input is handled gracefully,Not Run,Medium,Boundary,
+TC-106,REQ-018,Checkout,Alphanumeric postal code,Checkout form open,Enter SW1A1AA and continue,SW1A1AA,Behavior is stable and documented,Not Run,Low,Boundary,
+TC-107,REQ-021,Checkout,Final total arithmetic,Overview open,"Parse item total, tax, total and compare",Displayed amounts,Final total equals item total plus tax within rounding,Not Run,High,Calculation,
+TC-108,REQ-022,Checkout,Confirmation headline visible,Order completed,Inspect confirmation headline,N/A,Success headline is visible,Not Run,High,Functional,
+TC-109,REQ-022,Checkout,Confirmation message visible,Order completed,Inspect confirmation message,N/A,Completion message is visible,Not Run,Medium,Functional,
+TC-110,REQ-015,Checkout,Cart resets after purchase,Order completed,Back Home and inspect badge,N/A,Purchased cart is empty/reset,Not Run,High,Regression,
+TC-111,REQ-017,Checkout,Empty-cart checkout stability,Logged in; cart empty,Open cart and attempt checkout if enabled,N/A,No crash; actual behavior is documented,Not Run,Medium,Exploratory,
+TC-112,REQ-018,Checkout,Whitespace in customer fields,Checkout form open,Enter values with leading/trailing spaces,  Jane  /  Doe  /  10001  ,Behavior is consistent and documented,Not Run,Low,Boundary,
+TC-113,REQ-019,Checkout,Only first name entered,Checkout form open,Enter first name only and continue,Jane,Missing-field validation is shown,Not Run,Medium,Negative,
+TC-114,REQ-019,Checkout,Only postal code entered,Checkout form open,Enter postal only and continue,10001,Required-name validation is shown,Not Run,Medium,Negative,
+TC-115,REQ-020,Checkout,Back/forward checkout consistency,Overview open,Browser Back then Forward,N/A,Checkout state remains coherent or redirects safely,Not Run,Medium,Regression,
+TC-116,REQ-026,Navigation & UX,Checkout form tab order,Checkout form open,Press Tab repeatedly,N/A,Focus reaches fields and actions in a usable order,Not Run,Low,Accessibility/Usability,
+TC-117,REQ-026,Navigation & UX,Readable login error,Trigger invalid login,Inspect error text,Invalid credentials,Error is visible and understandable,Not Run,Medium,Usability,
+TC-118,REQ-027,Navigation & UX,Chromium critical journey,Playwright installed,Run @smoke on Chromium,N/A,Critical journey result is produced,Not Run,Medium,Compatibility,
+TC-119,REQ-027,Navigation & UX,Firefox critical journey,Playwright installed,Run @smoke on Firefox,N/A,Critical journey result is produced,Not Run,Medium,Compatibility,
+TC-120,REQ-028,API Products,Product object has required fields,GET /products successful,Validate id/title/price/category types,First product,Required fields exist with expected types,Not Run,High,API,
+TC-121,REQ-031,API Products,Invalid product ID format,API reachable,GET /products/abc,abc,Controlled non-success behavior,Not Run,Low,API Negative,
+TC-122,REQ-030,API Products,Category product consistency,Known category exists,GET /products/category/beauty and inspect all categories,beauty,Returned products match requested category,Not Run,Medium,API,
+TC-123,REQ-032,API Carts,Cart numeric totals,GET cart successful,Validate total and discountedTotal are numeric/nonnegative,Cart 1,Totals are numeric and nonnegative,Not Run,Medium,API,
+TC-124,REQ-032,API Carts,Cart positive quantities,GET cart successful,Validate all product quantities,Cart 1,Quantities are positive integers,Not Run,Medium,API,
+TC-125,REQ-032,API Carts,Invalid cart ID,API reachable,GET /carts/999999,999999,Controlled not-found behavior,Not Run,Low,API Negative,
+TC-126,REQ-035,Database Validation,Unique email expectation,Seed loaded,Query a known user by email,qa.user@example.com,At most one intended user row is returned,Not Run,Medium,Database,
+TC-127,REQ-035,Database Validation,Order item join integrity,Seed loaded,Join orders to order_items and products,Order 1,Every order item resolves to a product,Not Run,High,Database,
+TC-128,REQ-035,Database Validation,Negative stock detection,Seed loaded,Query products where stock < 0,N/A,No negative-stock rows in valid seed,Not Run,High,Database,
+TC-129,REQ-035,Database Validation,Orphan order-item detection,Seed loaded,LEFT JOIN order_items to orders/products and filter missing parents,N/A,No orphan rows in valid seed,Not Run,High,Database,
+TC-130,REQ-035,Database Validation,Cart subtotal recomputation,Seed loaded,SUM(quantity * unit_price) for cart,Cart 1,Calculated cart subtotal matches expected seed calculation,Not Run,High,Database,

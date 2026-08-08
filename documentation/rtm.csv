@@ -1,0 +1,36 @@
+﻿Requirement ID,Module,Requirement,Linked Test Cases,Test Case Count,Coverage
+REQ-001,Authentication,Allow a registered user to log in with valid credentials.,"TC-001, TC-081",2,Covered
+REQ-002,Authentication,Reject login attempts with invalid credentials.,"TC-002, TC-003, TC-004, TC-005, TC-006, TC-082, TC-083, TC-084, TC-085",9,Covered
+REQ-003,Authentication,Show a clear error for a locked-out account.,TC-007,1,Covered
+REQ-004,Authentication,Allow an authenticated user to log out.,"TC-008, TC-087",2,Covered
+REQ-005,Authentication,Prevent unauthenticated use of protected inventory pages.,TC-009,1,Covered
+REQ-006,Product Catalog,Display product inventory after successful login.,"TC-010, TC-088",2,Covered
+REQ-007,Product Catalog,"Display product name, description, price, and image.","TC-011, TC-020",2,Covered
+REQ-008,Product Catalog,Allow opening a product detail page.,"TC-012, TC-013, TC-014, TC-089, TC-090, TC-091, TC-092",7,Covered
+REQ-009,Product Catalog,Support name sorting ascending and descending.,"TC-015, TC-016, TC-019",3,Covered
+REQ-010,Product Catalog,Support price sorting low-high and high-low.,"TC-017, TC-018",2,Covered
+REQ-011,Shopping Cart,Allow adding a product to the cart.,"TC-023, TC-031, TC-097",3,Covered
+REQ-012,Shopping Cart,Allow adding multiple different products to the cart.,"TC-024, TC-095, TC-100",3,Covered
+REQ-013,Shopping Cart,Show a cart badge matching the number of added products.,"TC-021, TC-022, TC-032",3,Covered
+REQ-014,Shopping Cart,Allow removing a product from the cart.,"TC-025, TC-026, TC-096, TC-098, TC-099",5,Covered
+REQ-015,Shopping Cart,Preserve cart contents during navigation in the session.,"TC-027, TC-028, TC-110",3,Covered
+REQ-016,Shopping Cart,Show correct product name and price in the cart.,"TC-029, TC-030",2,Covered
+REQ-017,Checkout,Allow checkout to start from the cart.,"TC-033, TC-034, TC-111",3,Covered
+REQ-018,Checkout,"Require first name, last name, and postal code for checkout.","TC-035, TC-104, TC-105, TC-106, TC-112",5,Covered
+REQ-019,Checkout,Show validation when required checkout information is missing.,"TC-036, TC-037, TC-038, TC-039, TC-113, TC-114",6,Covered
+REQ-020,Checkout,Show selected products and prices in checkout overview.,"TC-040, TC-049, TC-115",3,Covered
+REQ-021,Checkout,"Keep checkout item total, tax, and final total internally consistent.","TC-041, TC-042, TC-043, TC-044, TC-107",5,Covered
+REQ-022,Checkout,Allow a valid checkout to finish with success confirmation.,"TC-045, TC-046, TC-047, TC-108, TC-109",5,Covered
+REQ-023,Checkout,Allow checkout cancellation without corrupting state.,TC-048,1,Covered
+REQ-024,Navigation,Allow navigation back to product inventory.,"TC-052, TC-053, TC-054, TC-101",4,Covered
+REQ-025,Navigation,Allow opening and closing the application menu.,"TC-050, TC-051",2,Covered
+REQ-026,Usability,Provide visible and understandable primary controls and errors.,"TC-055, TC-056, TC-086, TC-093, TC-102, TC-103, TC-116, TC-117",8,Covered
+REQ-027,Compatibility,"Support critical journey testing on Chromium, Firefox, and WebKit.","TC-094, TC-118, TC-119",3,Covered
+REQ-028,API Products,Return a collection of products with identifiers and attributes.,"TC-057, TC-058, TC-120",3,Covered
+REQ-029,API Products,Return a single product for a valid identifier.,TC-059,1,Covered
+REQ-030,API Products,"Support documented product search, pagination, sorting, and categories.","TC-061, TC-062, TC-063, TC-064, TC-065, TC-066, TC-122",7,Covered
+REQ-031,API Products,Return controlled error behavior for invalid/nonexistent product identifiers.,"TC-060, TC-121",2,Covered
+REQ-032,API Carts,"Return cart data including products, quantities, totals, and user.","TC-067, TC-068, TC-069, TC-074, TC-123, TC-124, TC-125",7,Covered
+REQ-033,API Carts,Simulate adding a new cart and return its representation.,"TC-071, TC-072, TC-073",3,Covered
+REQ-034,API Carts,Support retrieving carts for a specific user.,TC-070,1,Covered
+REQ-035,Data Validation,Support representative SQL validation of user/cart/order data.,"TC-075, TC-076, TC-077, TC-078, TC-079, TC-080, TC-126, TC-127, TC-128, TC-129, TC-130",11,Covered

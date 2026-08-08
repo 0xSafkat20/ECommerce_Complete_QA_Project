@@ -1,0 +1,5 @@
+{
+  "standard": "standard_user",
+  "locked": "locked_out_user",
+  "invalid": "qa_invalid_user"
+}

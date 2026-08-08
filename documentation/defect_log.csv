@@ -1,0 +1,6 @@
+﻿Bug ID,Module,Title,Severity,Priority,Status,Precondition,Steps to Reproduce,Expected Result,Actual Result,Evidence/Notes
+BUG-TPL-001,Shopping Cart,[Template] Cart badge does not update after adding an item,Major,High,Not Executed,Authenticated; cart empty,Add one product; observe badge,Badge increases to 1,[Record during execution],Hypothetical training example only.
+BUG-TPL-002,Checkout,[Template] Total does not equal item total plus tax,Critical,High,Not Executed,Checkout overview open,Record item total/tax/total; recalculate,Displayed total is correct,[Record during execution],Hypothetical training example only.
+BUG-TPL-003,Authentication,[Template] Locked-out user can access inventory,Critical,High,Not Executed,Login page open,Login with locked-out account,Access denied,[Record during execution],Hypothetical training example only.
+BUG-TPL-004,Product Catalog,[Template] Price sort order is incorrect,Major,Medium,Not Executed,Inventory page open,Select low-to-high; read prices,Prices are nondecreasing,[Record during execution],Hypothetical training example only.
+BUG-TPL-005,API,[Template] Product endpoint omits required field,Major,Medium,Not Executed,API reachable,GET product; validate fields,Required fields present,[Record during execution],Hypothetical training example only.
